@@ -5,15 +5,15 @@ The system integrates collecting data from GlobalFirepower.com, data engineering
 
 The platform enables users to: 
 
-•	Analyze global military rankings
+  •	Analyze global military rankings
 
-•	Compare two countries side-by-side
+  •	Compare two countries side-by-side
 
-•	Simulate coalition strength
+  •	Simulate coalition strength
 
-•	Evaluate modernization levels
+  •	Evaluate modernization levels
 
-•	Assess defense spending intensity
+  •	Assess defense spending intensity
 
 **Project Architecture:**
 
@@ -23,9 +23,9 @@ Web Scrapping -> Data Cleaning -> KPI Engineering -> Dashboard Development -> QA
 
 Data was scraped from GlobalFirepower.com, especially from the following:
 
-•	Military Strength Ranking: https://www.globalfirepower.com/countries-listing.php
+  •	Military Strength Ranking: https://www.globalfirepower.com/countries-listing.php
 
-•	Various metric-specific pages (e.g., Total Population, Total Military Personnel, Defense Budget, etc.) 
+  •	Various metric-specific pages (e.g., Total Population, Total Military Personnel, Defense Budget, etc.) 
 
 **Milestone 1 – Data Collection and Preparation**
 
@@ -35,29 +35,29 @@ Build a reliable dataset from raw web data.
 
 **Task Completed:**
 
-•	Scraped 140+ country military profiles from GlobalFirepower.com
+  •	Scraped 140+ country military profiles from GlobalFirepower.com
 
-•	Extracted 50+ military indicators
+  •	Extracted 50+ military indicators
 
-•	Parsed ranking, manpower, assets, and budget metrics
+  •	Parsed ranking, manpower, assets, and budget metrics
 
-•	Cleaned and standardized numerical values
+  •	Cleaned and standardized numerical values
 
-•	Handled missing data
+  •	Handled missing data
 
-•	Converted text metrics into numeric format
+  •	Converted text metrics into numeric format
 
 Tools Used:
 
-•	Python
+  •	Python
 
-•	Requests
+  •	Requests
 
-•	BeautifulSoup
+  •	BeautifulSoup
 
-•	Pandas
+  •	Pandas
 
-•	NumPy
+  •	NumPy
 
 **Milestone 2 – KPI Engineering and Dashboard Preparation**
 
@@ -93,47 +93,45 @@ The Dashboard is prepared using the final files containing KPIs:
 **Kpi overview:**
 
 Provides the high level summary of global military strength.
+  •	Country Slicer
 
-•	Country Slicer
+  •	Total Ground Power 
 
-•	Total Ground Power 
+  •	Artillary Modernization 
 
-•	Artillary Modernization 
+  •	Total Aircrafts
 
-•	Total Aircrafts
+  •	Average Military Rank
 
-•	Average Military Rank
+  •	Ground Power Share
 
-•	Ground Power Share
+  •	Total Assets
 
+  •	Total Assets Chart
 
-•	Total Assets
-
-•	Total Assets Chart
-
-•	Ground Power Share (Donut Chart)
+  •	Ground Power Share (Donut Chart)
 
 **Power comparison:**
 
 Compares air and the ground strength across countries   
 
-•	Country Slicer
+  •	Country Slicer
 
-•	Total Ground Power
+  •	Total Ground Power
 
-•	Total Aircraft
+  •	Total Aircraft
 
-•	Air to Ground Ratio (Line Chart) 
+  •	Air to Ground Ratio (Line Chart) 
 
 **Modernization and ranking:**
 
 Focuses on Modernization and Ranking Consistency.
 
-•	Power index rank gap
+  •	Power index rank gap
 
-•	Artillery Modernization
+  •	Artillery Modernization
 
-•	Country Slicer
+  •	Country Slicer
 
 **Milestone 3 – Dashboard Development**
 
@@ -147,15 +145,15 @@ Provide a global snapshot of military strength rankings and trends.
 
 Featured:
 
--Top 5 countries by Defense Budget
+  -Top 5 countries by Defense Budget
 
--Top 5 coutries by Military Assets
+  -Top 5 coutries by Military Assets
 
--Top 5 countries by Purchasing Power Parity
+  -Top 5 countries by Purchasing Power Parity
 
--Top 5 countries by air, Naval and Land Fleet
+  -Top 5 countries by air, Naval and Land Fleet
 
--Power index Rank KPI Card
+  -Power index Rank KPI Card
 
 **Nation Overview Dashboard-**
 
@@ -165,15 +163,15 @@ Provide detailed country-level military profile.
 
 Features:
 
--Country selector
+  -Country selector
 
--Power Index Rank KPI Card
+  -Power Index Rank KPI Card
 
--Military Force Composition consisting of tanks, Aircraft and Naval
+  -Military Force Composition consisting of tanks, Aircraft and Naval
 
--Manpower Composition consisting of Active Personnel, Paramilitary and Reserve Personnel
+  -Manpower Composition consisting of Active Personnel, Paramilitary and Reserve Personnel
 
--Assets Per Million Population
+  -Assets Per Million Population
 
 **Compare Powers:**
 
@@ -183,15 +181,15 @@ Allow side-by-side comparison between any two countries.
 
 Features:
 
--Dual Country Selection
+  -Dual Country Selection
 
--Side-by-side KPI Comparison
+  -Side-by-side KPI Comparison
 
--Rank Gap Analysis
+  -Rank Gap Analysis
 
--Asset Category Comparison
+  -Asset Category Comparison
 
--Budget and Manpower Comparison
+  -Budget and Manpower Comparison
 
 **Coalition Builder-**
 
@@ -201,51 +199,51 @@ Simulate alliance strength through multi-country aggregation.
 
 Features:
 
--Coalition VS Reference Country Comparison
+  -Coalition VS Reference Country Comparison
 
--Structural Composition Analysis
+  -Structural Composition Analysis
 
--Automatic Recalculation of:
+  -Automatic Recalculation of:
 
-•	Total Assets
+      •	Total Assets
 
-•	Personnel
+      •	Personnel
 
-•	Defense Budget
+      •	Defense Budget
 
 Visualization Techniques Used:
 
-•	KPI Cards
+  •	KPI Cards
 
-•	Clustered Bar Charts
+  •	Clustered Bar Charts
 
-•	Donut charts
+  •	Donut charts
 
 **Milestone 4 – Testing, QA & Deployment**
 
 Validation Performed
 
-•	KPI accuracy cross-check
+  •	KPI accuracy cross-check
 
-•	Filter & slicer testing
+  •	Filter & slicer testing
 
-•	Parameter validation
+  •	Parameter validation
 
-•	Navigation flow verification
+  •	Navigation flow verification
 
-•	Layout standardization
+  •	Layout standardization
 
-•	Data aggregation checks
+  •	Data aggregation checks
 
 **Final Deliverables**
 
-•	Fully integrated dashboard workbook
+  •	Fully integrated dashboard workbook
 
-•	Structured GitHub repository
+  •	Structured GitHub repository
 
-•	Complete documentation
+  •	Complete documentation
 
-•	Portfolio-ready analytics system
+  •	Portfolio-ready analytics system
 
 **How to use:**
 
